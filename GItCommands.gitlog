@@ -1,0 +1,1276 @@
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config user.name
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config user.email
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --global user.name "Andy"
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --global user.email andriy.glabay@ab-soft.net
+
+andriy.glabay@NB401 MINGW64 ~
+$ ^C
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --global core.editor "C:\Program Files (x86)\Sublime Text 3\sublime_text.exe"
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Andy
+user.email=andriy.glabay@ab-soft.net
+core.editor=C:\Program Files (x86)\Sublime Text 3\sublime_text.exe
+
+andriy.glabay@NB401 MINGW64 ~
+$ ^C
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --global user.name "andriyglabay"
+
+andriy.glabay@NB401 MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=andriyglabay
+user.email=andriy.glabay@ab-soft.net
+core.editor=C:\Program Files (x86)\Sublime Text 3\sublime_text.exe
+
+andriy.glabay@NB401 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - AB SOFT INC'/
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SoapUI-Tutorials/
+'Start Menu'@
+ Templates@
+ Videos/
+ default-soapui-workspace.xml
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ soapui-settings.xml
+
+andriy.glabay@NB401 MINGW64 ~
+$ cd C:\Users\andriy.glabay\Documents\AB Soft\AQA
+bash: cd: too many arguments
+
+andriy.glabay@NB401 MINGW64 ~
+$ cd ..
+
+andriy.glabay@NB401 MINGW64 /c/Users
+$ cd ..
+
+andriy.glabay@NB401 MINGW64 /c
+$ Users\andriy.glabay\Documents\AB Soft\AQA
+bash: Usersandriy.glabayDocumentsAB: command not found
+
+andriy.glabay@NB401 MINGW64 /c
+$ cd Users\andriy.glabay\Documents\AB Soft\AQA
+bash: cd: too many arguments
+
+andriy.glabay@NB401 MINGW64 /c
+$ cd users
+
+andriy.glabay@NB401 MINGW64 /c/users
+$ cd andriy.glabay
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Documents/AB Soft/AQA
+bash: cd: too many arguments
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Documents
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents
+$ cd AB\ Soft/
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft
+$ cd AQA
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft/AQA
+$ mkdir AQA_Repo
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft/AQA
+$ ^C
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft/AQA
+$ cd AQA_Repo/
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft/AQA/AQA_Repo
+$ cd ../..
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Documents/AB Soft
+$ cd ../..
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ mkdir Repo
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Repo
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo
+$ touch README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo
+$ git init
+Initialized empty Git repository in C:/Users/andriy.glabay/Repo/.git/
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ^C
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls
+README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls -la
+total 20
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 13 18:55 ./
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 13 18:50 ../
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 13 18:55 .git/
+-rw-r--r-- 1 andriy.glabay 1049089 0 Mar 13 18:52 README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git add README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "Add to repo 1st file README.md"
+
+[master (root-commit) 3ac24a8] Add to repo 1st file README.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git diff
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git diff README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "line 2" >> README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat README.md
+line 2
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ touch File2.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls
+File2.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "new line" >> file.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "line 3" >> README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat README.md
+line 2
+line 3
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ diff README.md
+diff: missing operand after 'README.md'
+diff: Try 'diff --help' for more information.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        File2.txt
+        file.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'file.txt', LF will be replaced by CRLF the next time Git touches it
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   File2.txt
+        modified:   README.md
+        new file:   file.txt
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "modify README.md" README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[master f5788ba] modify README.md
+ 1 file changed, 2 insertions(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "add 2 new files in txt format" File2.txt file.txt
+warning: in the working copy of 'file.txt', LF will be replaced by CRLF the next time Git touches it
+[master 9b2c565] add 2 new files in txt format
+ 2 files changed, 1 insertion(+)
+ create mode 100644 File2.txt
+ create mode 100644 file.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git rm file.txt
+rm 'file.txt'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls
+File2.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git log
+commit 9b2c5650335baa74a720199a6a5a5a3f9cb5a045 (HEAD -> master)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:54 2023 +0200
+
+    add 2 new files in txt format
+
+commit f5788ba5ae32d4b62a0430aacb2f5676ad423363
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:12 2023 +0200
+
+    modify README.md
+
+commit 3ac24a80fc59c11dc89c952780cf0891ea0739f6
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 19:15:03 2023 +0200
+
+    Add to repo 1st file README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git cat -h
+git: 'cat' is not a git command. See 'git --help'.
+
+The most similar commands are
+        clean
+        mktag
+        stage
+        stash
+        tag
+        var
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ touch andy.gitignore
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "#ignore sample" >>> andy.gitignore
+bash: syntax error near unexpected token `>'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "#ignore sample" >> andy.gitignore
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat andy.gitignore
+#ignore sample
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "*.class" >> andy.gitignore
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat andy.gitignore
+#ignore sample
+*.class
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls
+File2.txt  README.md  andy.gitignore
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        andy.gitignore
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git restore README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ add README.md
+bash: add: command not found
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git add README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        deleted:    file.txt
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git restore --staged README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -am "changes num.4 in README.md" README.md
+fatal: paths 'README.md ...' with -a does not make sense
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git add README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "changes num.4 in README.md" README.md
+[master 95eb849] changes num.4 in README.md
+ 1 file changed, 1 insertion(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit --amend
+hint: Waiting for your editor to close the file... C:\Program Files (x86)\Sublime Text 3\sublime_text.exe: -c: line 1: syntax error near unexpected token `('
+C:\Program Files (x86)\Sublime Text 3\sublime_text.exe: -c: line 1: `C:\Program Files (x86)\Sublime Text 3\sublime_text.exe "$@"'
+error: There was a problem with the editor 'C:\Program Files (x86)\Sublime Text 3\sublime_text.exe'.
+Please supply the message using either -m or -F option.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit --amend
+hint: Waiting for your editor to close the file... C:\Program Files (x86)\Sublime Text 3\sublime_text.exe: -c: line 1: syntax error near unexpected token `('
+C:\Program Files (x86)\Sublime Text 3\sublime_text.exe: -c: line 1: `C:\Program Files (x86)\Sublime Text 3\sublime_text.exe "$@"'
+error: There was a problem with the editor 'C:\Program Files (x86)\Sublime Text 3\sublime_text.exe'.
+Please supply the message using either -m or -F option.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    file.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "delete file.txt"
+[master 50e55e0] delete file.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 file.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git add .gitignore
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -m "add gitignore"
+[master 5724a6a] add gitignore
+ 1 file changed, 5 insertions(+)
+ create mode 100644 .gitignore
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git branch RCV
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git branch
+  RCV
+* master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git log
+commit 5724a6a0314b4de4f48ce7e0cd1488d27636adc6 (HEAD -> master, RCV)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:34:32 2023 +0200
+
+    add gitignore
+
+commit 50e55e0ef60027d4e09168b28841ebb82916792a
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:33:40 2023 +0200
+
+    delete file.txt
+
+commit 95eb849deb3bbd2d4381dec9a06e24da19d0f757
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:48:14 2023 +0200
+
+    changes num.4 in README.md
+
+commit 9b2c5650335baa74a720199a6a5a5a3f9cb5a045
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:54 2023 +0200
+
+    add 2 new files in txt format
+
+commit f5788ba5ae32d4b62a0430aacb2f5676ad423363
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:12 2023 +0200
+
+    modify README.md
+
+commit 3ac24a80fc59c11dc89c952780cf0891ea0739f6
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 19:15:03 2023 +0200
+
+    Add to repo 1st file README.md
+ ESCOC
+da19d0f757
+b-soft.net>
+0
+
+
+
+3f9cb5a045
+b-soft.net>
+0
+
+
+
+76ad423363
+b-soft.net>
+0
+
+
+
+91ea0739f6
+b-soft.net>
+0
+
+
+ ESCOD
+commit 95eb849deb3bbd2d4381dec9a06e24da19d0f757
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:48:14 2023 +0200
+
+    changes num.4 in README.md
+
+commit 9b2c5650335baa74a720199a6a5a5a3f9cb5a045
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:54 2023 +0200
+
+    add 2 new files in txt format
+
+commit f5788ba5ae32d4b62a0430aacb2f5676ad423363
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:24:12 2023 +0200
+
+    modify README.md
+
+commit 3ac24a80fc59c11dc89c952780cf0891ea0739f6
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 19:15:03 2023 +0200
+
+    Add to repo 1st file README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git checkout RCV
+Switched to branch 'RCV'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git branch
+* RCV
+  master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ touch RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RCV-10010.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git add RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   RCV-10010.txt
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git commit -m "Add new file to branch RCV"
+[RCV 294ff2a] Add new file to branch RCV
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git log
+commit 294ff2af399f896421147611f585ce9777c7bd5f (HEAD -> RCV)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:42:00 2023 +0200
+
+    Add new file to branch RCV
+
+commit 5724a6a0314b4de4f48ce7e0cd1488d27636adc6 (master)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:34:32 2023 +0200
+
+    add gitignore
+
+commit 50e55e0ef60027d4e09168b28841ebb82916792a
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:33:40 2023 +0200
+
+    delete file.txt
+
+commit 95eb849deb3bbd2d4381dec9a06e24da19d0f757
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:48:14 2023 +0200
+
+    changes num.4 in README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git checkout -b FIJI
+Switched to a new branch 'FIJI'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git branch
+* FIJI
+  RCV
+  master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git log
+commit 294ff2af399f896421147611f585ce9777c7bd5f (HEAD -> FIJI, RCV)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:42:00 2023 +0200
+
+    Add new file to branch RCV
+
+commit 5724a6a0314b4de4f48ce7e0cd1488d27636adc6 (master)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:34:32 2023 +0200
+
+    add gitignore
+
+commit 50e55e0ef60027d4e09168b28841ebb82916792a
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:33:40 2023 +0200
+
+    delete file.txt
+
+commit 95eb849deb3bbd2d4381dec9a06e24da19d0f757
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Mon Mar 13 21:48:14 2023 +0200
+
+    changes num.4 in README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ ls
+File2.txt  RCV-10010.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ echo "Line-A" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ cat RCV-10010.txt
+Line-A
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ echo "Line-B" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git commit -am "modify RCV-10010.txt"
+warning: in the working copy of 'RCV-10010.txt', LF will be replaced by CRLF the next time Git touches it
+[FIJI faa21a8] modify RCV-10010.txt
+ 1 file changed, 2 insertions(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git status
+On branch FIJI
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git log
+commit faa21a80c26e0e99042ad2efd7925f887f29ff96 (HEAD -> FIJI)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:50:36 2023 +0200
+
+    modify RCV-10010.txt
+
+commit 294ff2af399f896421147611f585ce9777c7bd5f (RCV)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:42:00 2023 +0200
+
+    Add new file to branch RCV
+
+commit 5724a6a0314b4de4f48ce7e0cd1488d27636adc6 (master)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:34:32 2023 +0200
+
+    add gitignore
+
+commit 50e55e0ef60027d4e09168b28841ebb82916792a
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:33:40 2023 +0200
+
+    delete file.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (FIJI)
+$ git checkout RCV
+Switched to branch 'RCV'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git merge FIJI
+Updating 294ff2a..faa21a8
+Fast-forward
+ RCV-10010.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git log
+commit faa21a80c26e0e99042ad2efd7925f887f29ff96 (HEAD -> RCV, FIJI)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:50:36 2023 +0200
+
+    modify RCV-10010.txt
+
+commit 294ff2af399f896421147611f585ce9777c7bd5f
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:42:00 2023 +0200
+
+    Add new file to branch RCV
+
+commit 5724a6a0314b4de4f48ce7e0cd1488d27636adc6 (master)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:34:32 2023 +0200
+
+    add gitignore
+
+commit 50e55e0ef60027d4e09168b28841ebb82916792a
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:33:40 2023 +0200
+
+    delete file.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git branch -d FIJI
+Deleted branch FIJI (was faa21a8).
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git branch
+* RCV
+  master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ ls
+File2.txt  RCV-10010.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ echo "Line-C 1234567" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   RCV-10010.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git add RCV-10010.txt
+warning: in the working copy of 'RCV-10010.txt', LF will be replaced by CRLF the next time Git touches it
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   RCV-10010.txt
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ gi tcommit -m "add 3rd line to RCV-10010.txt"
+bash: gi: command not found
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git commit -m "add 3rd line to RCV-10010.txt"
+[RCV 97a8652] add 3rd line to RCV-10010.txt
+ 1 file changed, 1 insertion(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git status
+On branch RCV
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (RCV)
+$ git checkout master
+Switched to branch 'master'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git merge RCV
+Updating 5724a6a..97a8652
+Fast-forward
+ RCV-10010.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git branch -d RCV
+Deleted branch RCV (was 97a8652).
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git checkout -b BRA
+Switched to a new branch 'BRA'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ git branch
+* BRA
+  master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ ls
+File2.txt  RCV-10010.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ echo "Line-4" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+Line-4
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ git add RCV-10010.txt
+warning: in the working copy of 'RCV-10010.txt', LF will be replaced by CRLF the next time Git touches it
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ git commit -m "add Line4 to RCV-10010.txt"
+[BRA 199212f] add Line4 to RCV-10010.txt
+ 1 file changed, 1 insertion(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (BRA)
+$ git checkout master
+Switched to branch 'master'
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ ls
+File2.txt  RCV-10010.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ echo "ABCDEFG" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+ABCDEFG
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git commit -a -m "Add Line4 to RCV-10010.txt on branch Master"
+warning: in the working copy of 'RCV-10010.txt', LF will be replaced by CRLF the next time Git touches it
+[master f78ce5e] Add Line4 to RCV-10010.txt on branch Master
+ 1 file changed, 1 insertion(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+ABCDEFG
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git merge BRA
+Auto-merging RCV-10010.txt
+CONFLICT (content): Merge conflict in RCV-10010.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   RCV-10010.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   RCV-10010.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master|MERGING)
+$ git add RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   RCV-10010.txt
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master|MERGING)
+$ git commit -m "merge BRA into master"
+[master 6c36121] merge BRA into master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git log
+commit 6c3612174f6878d31f4dbed20544c0c6d357ec59 (HEAD -> master)
+Merge: f78ce5e 199212f
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 12:35:34 2023 +0200
+
+    merge BRA into master
+
+commit f78ce5e27386e9c15c972b87dfba140abda30384
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 12:12:09 2023 +0200
+
+    Add Line4 to RCV-10010.txt on branch Master
+
+commit 199212fb07c8bd931dc2bac2937ce8b585276c43 (BRA)
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 12:08:49 2023 +0200
+
+    add Line4 to RCV-10010.txt
+
+commit 97a8652c0ace48723f17c483ea267ff44e4c3a97
+Author: andriyglabay <andriy.glabay@ab-soft.net>
+Date:   Tue Mar 14 11:57:41 2023 +0200
+
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git remote add origin https://github.com/andriyglabay/AQA.git
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git branch -M master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ git push -u origin master
+
+q
+
+
+
+
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (34/34), 2.91 KiB | 426.00 KiB/s, done.
+Total 34 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/andriyglabay/AQA.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ q
+bash: q: command not found
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cd ../
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ mkdir Repo2
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Repo2
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2
+$ git clone https://github.com/andriyglabay/AQA.git
+Cloning into 'AQA'...
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 34 (delta 8), reused 34 (delta 8), pack-reused 0
+Receiving objects: 100% (34/34), done.
+Resolving deltas: 100% (8/8), done.
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2
+$ git remote
+fatal: not a git repository (or any of the parent directories): .git
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2
+$ ls -la
+total 20
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 14 15:21 ./
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 14 15:20 ../
+drwxr-xr-x 1 andriy.glabay 1049089 0 Mar 14 15:21 AQA/
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2
+$ cd AQA
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git remote
+origin
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git remote -v
+origin  https://github.com/andriyglabay/AQA.git (fetch)
+origin  https://github.com/andriyglabay/AQA.git (push)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ cd ../..
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Repo
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo (master)
+$ cd ../..
+
+andriy.glabay@NB401 MINGW64 /c/users
+$ cd Repo2
+bash: cd: Repo2: No such file or directory
+
+andriy.glabay@NB401 MINGW64 /c/users
+$ cd andriy.glabay/
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay
+$ cd Repo2
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2
+$ cd AQA
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/andriyglabay/AQA.git
+  Push  URL: https://github.com/andriyglabay/AQA.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ ls
+File2.txt  RCV-10010.txt  README.md
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ cat RCV-10010.txt
+Line-A
+Line-B
+Line-C 1234567
+ABCDEFG & Line-4
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ echo "Line-5555555" >> RCV-10010.txt
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   RCV-10010.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git commit -am "Add new Line num.5 for remote repo"
+warning: in the working copy of 'RCV-10010.txt', LF will be replaced by CRLF the next time Git touches it
+[master 8dedd0e] Add new Line num.5 for remote repo
+ 1 file changed, 1 insertion(+)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/andriyglabay/AQA.git
+   6c36121..8dedd0e  master -> master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ cd ../Repo2
+bash: cd: ../Repo2: No such file or directory
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git fetch
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 689 bytes | 49.00 KiB/s, done.
+From https://github.com/andriyglabay/AQA
+   8dedd0e..84d0a45  master     -> origin/master
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$ git pull
+Updating 8dedd0e..84d0a45
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+andriy.glabay@NB401 MINGW64 /c/users/andriy.glabay/Repo2/AQA (master)
+$
